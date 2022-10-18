@@ -44,8 +44,8 @@ t_api = '%s://%s:%s/%s/%s/' % (
 session = http_request.Session()
 
 # base & source paths
-base_path = '/Users/michelle/'
-source_path = os.path.join(base_path, 'tmp/')
+base_path = '/mnt/Drivepool1/'
+source_path = os.path.join(base_path, 'Media/')
 
 # destination paths
 movies_path = 'Movies/'
