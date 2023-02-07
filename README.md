@@ -1,3 +1,33 @@
+
+Media Organizer
+A Python script that organizes media files (movies and TV shows) based on their metadata information and/or file names.
+
+Requirements
+Python 3
+Mutagen library (pip install mutagen)
+How to use
+Clone or download the repository to your local machine.
+Install the required libraries by running pip install mutagen in your command line.
+Modify the src_folder and dest_folder variables in the script to match the path of your source and destination folders.
+Run the script using the command python media_organizer.py.
+Note
+The script categorizes files as either movies, TV shows, or other based on their metadata information and/or file names, and moves them to the corresponding folder under the dest_folder directory. The categorization may not always be accurate, so you may need to make adjustments to the code to handle any inaccuracies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Python 3 version coming
 =======================
 Haven't had much time to really work on side projects, however I plan on doing quite a bit with this little script. I'll
